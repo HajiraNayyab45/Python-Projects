@@ -1,1 +1,37 @@
+Hangman Game
+📌 Project Overview
+This project is a Hangman Game built using Python and the tkinter library. It is a visually appealing word-guessing game where players try to guess a hidden word by entering one letter at a time. The game provides hints, tracks incorrect guesses, and displays a hangman figure as the player makes mistakes.
 
+🛠 Step 1: Set Up Your Environment
+- Install Python
+  Ensure Python 3.x is installed on your system. You can download it from python.org.
+- Install Visual Studio Code
+  Download and install Visual Studio Code.
+- Install Required Libraries
+  The game uses the built-in tkinter library, which comes pre-installed with Python. No additional libraries are required.
+
+🛠 Step 2: Write the Hangman Game Code
+- Create a New Python File
+- Open Visual Studio Code and create a new file named hangman_game.py.
+- Write the Hangman Game Code
+Copy and paste the Hangman game code into the file. The code includes:
+- A graphical interface using tkinter.
+- A word list with hints.
+- A dynamic hangman figure that updates with incorrect guesses.
+- Buttons for submitting guesses, playing again, and exiting the game.
+
+🛠 Step 3: Run the Game
+- Run the Python File
+- Open a terminal in Visual Studio Code and run the game using the command: python hangman_game.py
+
+Play the Game
+- Enter letters to guess the hidden word.
+= Use the "Play Again" button to restart the game.
+- Use the "Exit Game" button to close the application.
+
+🎮 Features
+Graphical Interface: A clean and visually appealing GUI built with tkinter.
+Hints: Each word comes with a helpful hint to guide the player.
+Dynamic Hangman Drawing: The hangman figure updates as incorrect guesses are made.
+Play Again Option: Restart the game without closing the application.
+Exit Button: Easily close the game when finished.
