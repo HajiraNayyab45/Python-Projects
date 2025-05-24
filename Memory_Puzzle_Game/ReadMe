@@ -1,1 +1,53 @@
+Memory Puzzle Game
+📌 Project Overview
+This project is a Memory Puzzle Game built using Python and the pygame library. The game challenges players to match pairs of cards within a time limit. It is a fun and interactive way to test your memory and focus.
 
+🛠 Step 1: Set Up Your Environment
+- Install Python
+- Ensure Python is installed on your system. You can download it from python.org.
+- Install pygame
+- Use the following command to install the pygame library: pip install pygame
+- Set Up Your IDE
+- Use an IDE like Visual Studio Code or PyCharm for writing and running the code.
+
+🛠 Step 2: Write the Memory Puzzle Game Code
+- Create a New Python File
+- Save the file as MEMORY_PUZZLE_GAME.py.
+
+- Write the Code
+Copy and paste the provided code into the file. The code includes:
+- A grid of cards that players can flip.
+- A timer to track the remaining time.
+- A win/lose screen with buttons to Play Again or Exit.
+
+🛠 Step 3: Run the Game
+- Open a terminal or command prompt.
+- Navigate to the directory where the MEMORY_PUZZLE_GAME.py file is saved.
+- Run the game using the following command: python MEMORY_PUZZLE_GAME.py
+
+🎮 How to Play
+- The game starts with a grid of face-down cards.
+- Click on two cards to flip them.
+- If the cards match, they remain revealed. If not, they flip back after a short delay.
+- Match all pairs before the timer runs out to win the game.
+- If you win or lose, you can choose to Play Again or Exit.
+
+✨ Features
+- Interactive Gameplay: Flip cards and match pairs.
+- Timer: Complete the game within the time limit.
+Dynamic End Screens:
+- Green Background: Displays "You Win!" when all pairs are matched.
+- Red Background: Displays "Time's Up!" if the timer runs out.
+Buttons:
+- Play Again: Restart the game.
+- Exit: Close the game.
+
+📋 Requirements
+Python 3.x
+pygame library
+
+💡 Tips
+Focus on remembering the positions of the cards.
+Try to match pairs as quickly as possible to beat the timer.
+
+Enjoy playing the Memory Puzzle Game and challenge your memory skills! 🎉
