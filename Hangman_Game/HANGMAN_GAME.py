@@ -6,7 +6,7 @@ class HangmanGame:
     def __init__(self, root):
         self.root = root
         self.root.title("Hangman Game")
-        self.root.geometry("600x550")
+        self.root.geometry("600x600")
         self.root.configure(bg="#f8f9fa")
 
         self.words_with_hints = [
@@ -16,11 +16,19 @@ class HangmanGame:
             ("rainbow", "Appears after it rains."),
             ("challenge", "Something difficult that tests you.")
         ]
+        self.reset_game()
+
+    def reset_game(self):
+        # Reset game variables
         self.word_to_guess, self.hint = random.choice(self.words_with_hints)
         self.guessed_word = ["_"] * len(self.word_to_guess)
         self.guessed_letters = set()
         self.max_attempts = 6
         self.attempts = 0
+
+        # Clear the window
+        for widget in self.root.winfo_children():
+            widget.destroy()
 
         # Canvas Frame
         self.canvas = tk.Canvas(self.root, width=250, height=250, bg="white", bd=2, relief="groove")
@@ -62,10 +70,19 @@ class HangmanGame:
         self.message_label = tk.Label(self.root, text="", font=("Helvetica", 14), bg="#f8f9fa")
         self.message_label.pack()
 
+        # Buttons Frame
+        buttons_frame = tk.Frame(self.root, bg="#f8f9fa")
+        buttons_frame.pack(pady=10)
+
+        # Play Again button
+        self.play_again_button = tk.Button(buttons_frame, text="🔄 Play Again", command=self.reset_game,
+                                           font=("Helvetica", 12), bg="#198754", fg="white", width=12)
+        self.play_again_button.pack(side=tk.LEFT, padx=10)
+
         # Exit button
-        self.exit_button = tk.Button(self.root, text="🚪 Exit Game", command=self.root.quit,
+        self.exit_button = tk.Button(buttons_frame, text="🚪 Exit Game", command=self.root.quit,
                                      font=("Helvetica", 12), bg="#dc3545", fg="white", width=12)
-        self.exit_button.pack(pady=10)
+        self.exit_button.pack(side=tk.LEFT, padx=10)
 
         self.draw_hangman()
 
