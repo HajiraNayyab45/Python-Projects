@@ -26,6 +26,11 @@ Task #04: Student Grade Tracker
 - Description: Allows users to input subjects and grades, then calculates and displays the average and performance.
 - Concepts Used: Dictionaries, Functions, Input/Output, Arithmetic Operations
 
+Task #05: Geolocation Tracker
+- Objective: Develop a script to fetch the user's geolocation using an IP address and display it on a map.
+- Description: Utilizes third-party APIs to extract IP-based location data and visualize it using Python libraries.
+- Concepts Used: requests, APIs, folium, JSON handling
+
 
 📜 License
 This repository is licensed under the MIT License.  
