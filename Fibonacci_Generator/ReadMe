@@ -1,1 +1,28 @@
+Fibonacci Generator
+📌 Project Overview
+This project is a Fibonacci Generator built using Python and tkinter.
+It provides a graphical user interface (GUI) to generate and display the Fibonacci sequence for a specified number of terms.
 
+🛠 Step 1: Set Up Your Environment
+Install Python (version 3.6 or higher).
+Install Visual Studio Code or any Python-compatible IDE.
+Ensure the tkinter library is installed (it comes pre-installed with Python).
+
+🛠 Step 2: Write the Fibonacci Generator Code
+Create a new Python file (e.g., FIBONACCI_GENERATOR.py).
+Write the Fibonacci generator logic and GUI code using tkinter.
+
+🛠 Step 3: Run the Application
+Open a terminal or your IDE.
+Run the Python file:
+
+🛠 Step 4: Use the Application
+Enter the number of terms in the input field.
+Click the Generate button to display the Fibonacci sequence.
+Use the Exit button to close the application.
+
+🎨 Features
+Graphical Interface: User-friendly GUI built with tkinter.
+Dynamic Output: Displays the Fibonacci sequence for any positive integer input.
+Error Handling: Alerts the user for invalid inputs.
+Exit Button: Easily close the application.
