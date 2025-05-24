@@ -1,1 +1,33 @@
+Student Grade Tracker
+📌 Project Overview
+The Student Grade Tracker is a Python-based GUI application that allows users to input, manage, and analyze student grades. It provides features to add/update grades, view all grades, and calculate the average grade. The application is built using the tkinter library for a user-friendly graphical interface.
+
+🛠 Step 1: Set Up Your Environment
+- Install Python
+- Ensure Python 3.x is installed on your system. You can download it from python.org.
+- Install Required Libraries
+- The application uses the built-in tkinter library, which comes pre-installed with Python. No additional libraries are required.
+- Set Up Your IDE
+- Use an IDE like Visual Studio Code or PyCharm for writing and running the code.
+
+🛠 Step 2: Write the Student Grade Tracker Code
+- Create a New Python File
+- Save the file as student_grade_tracker.py.
+- Write the Code
+- Copy and paste the provided code for the Student Grade Tracker into the file.
+
+🛠 Step 3: Run the Application
+- Open a terminal or command prompt.
+- Navigate to the directory where the student_grade_tracker.py file is saved.
+- Run the application using the command: student_grade_tracker.py
+
+🎯 Features
+Add/Update Grades: Input grades for different subjects, either as numeric values or letter grades.
+View Grades: Display all entered grades in a clear and organized format.
+Calculate Average: Automatically calculate and display the average grade.
+Exit Button: Close the application with a single click.
+
+🎨 User Interface
+Visually Appealing Design: The application features a clean and modern interface with intuitive buttons and labels.
+Output Area: Displays grades and average in a readable format.
 
