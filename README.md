@@ -31,6 +31,11 @@ Task #05: Geolocation Tracker
 - Description: Utilizes third-party APIs to extract IP-based location data and visualize it using Python libraries.
 - Concepts Used: requests, APIs, folium, JSON handling
 
+Task #06: Memory Puzzle Game
+- Objective: Implement a memory puzzle game where users match pairs of cards within a time limit.
+- Description: A fun concentration-based puzzle game built using Python GUI libraries. Users flip cards to find matching pairs, with time pressure to enhance difficulty.
+- Concepts Used: GUI development (tkinter or pygame), Loops, Timers, Lists, Logic
+
 
 📜 License
 This repository is licensed under the MIT License.  
